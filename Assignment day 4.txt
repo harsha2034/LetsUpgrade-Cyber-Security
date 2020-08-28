@@ -1,0 +1,62 @@
+QUESTION 1: Find out the mail servers of the following domain :
+Ibm.com
+Wipro.com
+
+---->STEPS:
+
+step 1:open command prompt and type nslookup 
+step 2:set type = mx enter
+step 3:type IBM.com and Wipro.com 
+
+--->RESULT:
+
+ set type=mx
+> ibm.com
+Server:  UnKnown
+Address:  192.168.1.1
+
+Non-authoritative answer:
+ibm.com MX preference = 5, mail exchanger = mx0b-001b2d01.pphosted.com
+ibm.com MX preference = 5, mail exchanger = mx0a-001b2d01.pphosted.com
+> set type=mx
+> wipro.com
+Server:  UnKnown
+Address:  192.168.1.1
+
+Non-authoritative answer:
+wipro.com       MX preference = 0, mail exchanger = wipro-com.mail.protection.outlook.com
+
+wipro.com       nameserver = ns2.webindia.com
+wipro.com       nameserver = ns4.webindia.com
+wipro.com       nameserver = ns1.webindia.com
+
+
+QUESTION 2 : Find the locations, where these email servers are hosted.
+
+FOR IBM.COM----> mail@ibm.com
+
+Mailbox Domain: mx0b-001b2d01.pphosted.com
+IP	      :148.163.158.5
+Country	      :United States
+City	      :Sunnyvale
+Latitude      :37.424900054932
+Longitude     :-122.0074005127
+ISP	      :N/A
+
+
+FOR WIPRO.COM----> mail@wipro.com
+
+Mailbox Domain:	wipro-com.mail.protection.outlook.com
+IP	      :104.47.124.36
+Country	      :United States
+City	      :Redmond
+Latitude      :47.680099487305
+Longitude     :-122.12059783936
+ISP	      :N/A
+
+QUESTION 3: Scan and find out port numbers open 203.163.246.23 
+Scanned and found 1000 open ports are filtered.
+
+question 4: Install nessus in a VM and scan your laptop/desktop for CVE.
+Scanned the laptop and find severity of all applications in my laptop like Critical,high, medium, Info
+
