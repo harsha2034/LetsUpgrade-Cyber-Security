@@ -5,7 +5,7 @@ Wipro.com
 ---->STEPS:
 
 step 1:open command prompt and type nslookup 
-step 2:set type = mx enter
+step 2:set type = mx 
 step 3:type IBM.com and Wipro.com 
 
 --->RESULT:
